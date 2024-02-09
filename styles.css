@@ -1,0 +1,92 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+header{
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    display: -webkit-box;
+    background-image: url(./images/background.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.top-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.middle-container {
+    margin: 100px;
+}
+
+.bottom-container {
+    background-color: #7FC7D9;
+    padding: 50px 0 20px;
+}
+
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 5rem;
+    color: #0F1035;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+a {
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.deco{
+    text-decoration: underline;
+}
+
+.title-text{
+    display: block;
+    text-align: center;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+p {
+    line-height: 2;
+}
